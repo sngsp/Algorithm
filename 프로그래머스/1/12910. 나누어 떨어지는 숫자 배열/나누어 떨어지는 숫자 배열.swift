@@ -10,7 +10,7 @@ func solution(_ arr:[Int], _ divisor:Int) -> [Int] {
     if result.isEmpty {
         result.append(-1)
     } else {
-        result.sort()
+        result = result.sorted()
     }
 
     return result
